@@ -1,0 +1,16 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "capture the flag backend",
+  "main": "index.js",
+  "author": "Bertonni",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon ."
+  },
+  "dependencies": {
+    "express": "4",
+    "nodemon": "^2.0.15",
+    "socket.io": "^4.4.0"
+  }
+}

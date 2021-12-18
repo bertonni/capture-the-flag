@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <script src="/socket.io/socket.io.js"></script>
+  <script>
+    let socket = io();
+  </script>
+  <div id="main" tabindex="-1">
+    <h1>Capture the flag</h1>
+    <div id="field" onblur="this.focus()">
+      <div class="player" id="player-team-1">T1</div>
+      <div class="player" id="player-team-2">T2</div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
